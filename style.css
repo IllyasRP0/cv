@@ -8,13 +8,13 @@ body{
   background-repeat: no-repeat;
   height: 100%;
   padding: 50px;
-  transition: background-color 0.5s;
   background-image: linear-gradient(120deg, rgb(126,50,125), rgb(40,125,185));
 }
 main {
-  transition: background-color 0.5s;
-  background-color: white;
 }
+
+
+
 .image{
   display: block;
   background-position: center;
@@ -25,35 +25,48 @@ img {
   width: 200px;
 }
 
+
+
+
 .top {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 h1 {
   padding-top: 20px;
   background-color: beige(255, 255, 255);
+  color: white;
 }
 
 
 h2 {
   text-decoration: underline;
   margin: 5%;
+  color: white;
 }
 
 .mid {
   display: flex;
   justify-content: space-between;
   margin: 10px;
+  color: white;
+
 }
 
 .conD {
   margin-bottom: 100px;
+  color: white;
+  
 }
 
 .con {
   margin: 5px;
+  color: white;
 }
+
+
 
 
 .network {
@@ -61,6 +74,7 @@ h2 {
   align-items: center;
   margin-top: 0%;
   padding: 10px;
+  color: white;
 }
 
 .faceA {
@@ -74,7 +88,6 @@ h2 {
   color: black;
   text-decoration: none;
   padding: 15px;
-  padding-top: px;
  
 }
 
@@ -124,19 +137,23 @@ h2 {
 .pro{
   display: flex;
   justify-content: center;
+  color: white;
 }
 .infotem{
   display: flex;
   justify-content: center;
+  color: white;
 }
 .network{
   display: flex;
   justify-content: center;
   margin: 50px;
+  color: white;
 }
 .titi{
   display: flex;
   justify-content: center;
+  color: white;
 }
 .forum{
   margin: 5%;
@@ -144,6 +161,7 @@ h2 {
 .coppyright{
   display: flex;
   justify-content: center;
+  color: white;
 }
 .tel{
   margin: 2%;
@@ -164,7 +182,6 @@ p{
 }
 .Parcour{
   text-decoration: underline;
-  border-style: solid;
 }
 .infoD{
   border-style: solid;
@@ -175,20 +192,5 @@ p{
 }
 .lorem{
   margin: 5%;
-}
-body.darkmode{
-  background-color: #0d0d0d;
-  color: #000000;
-  background-image: none;
-
-}
-.dt{
-  margin: 10px;
-  display: flex;
-  justify-content: end;
-  text-decoration: none;
-  padding: 30px;
-  padding-top: 5px;
-  margin-right: 5px;
-  height: 0px;
+  color: white;
 }
