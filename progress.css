@@ -1,0 +1,98 @@
+.container{
+    border: solid black 1px;
+    width: 100%;
+}
+
+.skills{
+    height: 5px;
+}
+
+.html{
+    background-color: orangered;
+    animation: animation1 2s ease-in-out forwards;
+}
+.css{
+    background-color: rgb(226, 24, 135);
+    animation: animation2 2s ease-in-out forwards;
+}
+.php{
+    background-color: rgb(32, 47, 182);
+    animation: animation3 2s ease-in-out forwards;
+}
+.js{
+    background-color: rgb(45, 190, 32);
+    animation: animation4 2s ease-in-out forwards;
+}
+
+
+
+.ang{
+    background-color: rgb(216, 55, 144);
+    animation: animation5 2s ease-in-out forwards;
+}
+.fr{
+    background-color: rgb(214, 218, 31);
+    animation: animation6 2s ease-in-out forwards;
+}
+.ru{
+    background-color: rgb(211, 14, 14);
+    animation: animation7 2s ease-in-out forwards;
+}
+/* ANIMATION */
+
+@keyframes animation1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes animation2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes animation3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes animation4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes animation5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 20%;
+    }
+}
+@keyframes animation6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes animation7{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
