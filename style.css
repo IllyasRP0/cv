@@ -10,9 +10,6 @@ body{
   padding: 50px;
   background-image: linear-gradient(120deg, rgb(126,50,125), rgb(40,125,185));
 }
-main {
-}
-
 
 
 .image{
@@ -25,7 +22,9 @@ img {
   width: 200px;
 }
 
-
+main{
+  font-size: 1rem;
+}
 
 
 .top {
@@ -157,6 +156,7 @@ h2 {
 }
 .forum{
   margin: 5%;
+  font-size: 1.10rem;
 }
 .coppyright{
   display: flex;
@@ -164,7 +164,11 @@ h2 {
   color: white;
 }
 .tel{
-  margin: 2%;
+  margin: 2%
+}
+.tel a{
+  text-decoration: none;
+  color: white;
 }
 .message{
   resize: none;
@@ -181,9 +185,6 @@ p{
   text-decoration: none;
 }
 .Parcour{
-  text-decoration: underline;
-}
-.infoD{
   border-style: solid;
 }
 .tom{
@@ -193,4 +194,30 @@ p{
 .lorem{
   margin: 5%;
   color: white;
+}
+.input{
+  all: unset;
+  color: #fefefe;
+  padding: 1rem;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+button{
+  border-radius: 5px;
+  border-color: #fefefe;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-style: double ;
+  height: 25px;
+  color: #fefefe;
+  background: none;
+}
+.tout{
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  border-color: #fefefe;
+}
+.langues{
+  border-style: solid;
 }
