@@ -194,6 +194,8 @@ p{
 .lorem{
   margin: 5%;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 .input{
   all: unset;
